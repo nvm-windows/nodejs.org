@@ -142,6 +142,7 @@
       "compatibility": {
         "os": ["WIN"]
       },
+      "recommended": true,
       "url": "https://github.com/nvm-windows/nvm",
       "info": "layouts.download.codeBox.platformInfo.nvmWindows"
     },

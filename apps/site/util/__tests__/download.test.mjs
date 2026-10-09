@@ -156,6 +156,7 @@ describe('INSTALL_METHODS', () => {
     assert.ok(nvmMethod?.iconImage);
     assert.equal(asdfMethod?.iconImage, undefined);
     assert.ok(nvmWindowsMethod?.iconImage);
+    assert.equal(nvmWindowsMethod?.recommended, true);
     assert.deepEqual(nvmWindowsMethod?.compatibility.os, ['WIN']);
   });
 });
