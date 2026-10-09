@@ -136,6 +136,16 @@
       "info": "layouts.download.codeBox.platformInfo.nvm"
     },
     {
+      "id": "NVM_WINDOWS",
+      "icon": "NVMWindows",
+      "name": "nvm-windows",
+      "compatibility": {
+        "os": ["WIN"]
+      },
+      "url": "https://github.com/nvm-windows/nvm",
+      "info": "layouts.download.codeBox.platformInfo.nvmWindows"
+    },
+    {
       "id": "FNM",
       "icon": "FNM",
       "name": "fnm",
@@ -166,16 +176,6 @@
       },
       "url": "https://chocolatey.org/",
       "info": "layouts.download.codeBox.platformInfo.choco"
-    },
-    {
-      "id": "NVM_WINDOWS",
-      "icon": "NVMWindows",
-      "name": "nvm-windows",
-      "compatibility": {
-        "os": ["WIN"]
-      },
-      "url": "https://github.com/nvm-windows/nvm",
-      "info": "layouts.download.codeBox.platformInfo.nvmWindows"
     },
     {
       "id": "DOCKER",
