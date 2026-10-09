@@ -149,8 +149,13 @@ describe('INSTALL_METHODS', () => {
   it('should create icons only when an icon is configured', () => {
     const nvmMethod = INSTALL_METHODS.find(method => method.value === 'NVM');
     const asdfMethod = INSTALL_METHODS.find(method => method.value === 'ASDF');
+    const nvmWindowsMethod = INSTALL_METHODS.find(
+      method => method.value === 'NVM_WINDOWS'
+    );
 
     assert.ok(nvmMethod?.iconImage);
     assert.equal(asdfMethod?.iconImage, undefined);
+    assert.ok(nvmWindowsMethod?.iconImage);
+    assert.deepEqual(nvmWindowsMethod?.compatibility.os, ['WIN']);
   });
 });

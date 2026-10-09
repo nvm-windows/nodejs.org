@@ -168,6 +168,16 @@
       "info": "layouts.download.codeBox.platformInfo.choco"
     },
     {
+      "id": "NVM_WINDOWS",
+      "icon": "NVMWindows",
+      "name": "nvm-windows",
+      "compatibility": {
+        "os": ["WIN"]
+      },
+      "url": "https://github.com/nvm-windows/nvm",
+      "info": "layouts.download.codeBox.platformInfo.nvmWindows"
+    },
+    {
       "id": "DOCKER",
       "icon": "Docker",
       "name": "Docker",
